@@ -20,7 +20,7 @@ def zoom_array(lst: List, factor: int = 2) -> List:
     List: A list of elements where each item from the input list
           is repeated 'factor' times.
     """
-    zoomed_in: List = [
+    zoomed_in: List[int] = [
         item for item in lst
         for i in range(factor)
     ]
